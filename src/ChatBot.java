@@ -44,5 +44,14 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    public void speak() {
+        System.out.println("i have no game");
+    }
+
+    public int multiplyNumbers(int num1, int num2, int num3) {
+        return num1 * num2 * num3;
+    }
+
 }
 

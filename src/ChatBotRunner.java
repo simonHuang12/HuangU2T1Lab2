@@ -8,6 +8,7 @@ public class ChatBotRunner {
         System.out.println("Did you know that 213+32141+456 is "+joe.addNumbers(213, 32141, 456)+"?");
         joe.favoriteNumber(12);
         System.out.println(joe.goodbye());
-
+        joe.speak();
+        System.out.println(joe.multiplyNumbers(42, 45, 2));
     }
 }
